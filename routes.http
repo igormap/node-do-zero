@@ -1,27 +1,27 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-r3xu.onrender.com/videos
 Content-Type: application/json
 
 {
-   "title": "Video 01",
-   "description": "Esse é o primeiro vídeo",
+   "title": "Video teste",
+   "description": "Testando o deploy",
    "duration": 180
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-r3xu.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/a28c95fa-3bca-472a-9d4e-1451eec3cf30
+PUT https://node-do-zero-r3xu.onrender.com/videos/80d77e77-4388-4b8a-a00e-c3417d369cce
 Content-Type: application/json
 
 {
-   "title": "Video 02",
-   "description": "Esse é o segundo vídeo",
+   "title": "Video UOU",
+   "description": "Bom demaize",
    "duration": 230
 }
 
 ###
 
-DELETE http://localhost:3333/videos/a28c95fa-3bca-472a-9d4e-1451eec3cf30
+DELETE https://node-do-zero-r3xu.onrender.com/videos/80d77e77-4388-4b8a-a00e-c3417d369cce
